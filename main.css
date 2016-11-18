@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner img {
+    width: 100%;
+    margin-top: -1.5em;
+}
+
+section {
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    float: left;
+    margin-top: -1.5em;
+    margin-left: 1.5em;
+    background-color: white;
+    position: relative;
+}
+
+#content {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin: center;
+}
+
+.leftcol,
+.righttcol {
+    width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
+
+nav {
+    color: #A7CDE3;
+    background-color: darkgray;
+    margin-top: 1.5em;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    line-height: 3em;
+}
+
+nav li {
+    flex: 1 1 8em;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+    color: #A7CDE3;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgray;
+    background-color: #A7CDE3;
+}
+
+p {
+    line-height: 15px;
+    margin: 5px;
+}
+
+#top-row,
+#middle-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#top-row {
+    text-align: center;
+    display: flex;
+    align-content: center;
+}
+
+#middle-row {
+    text-align: center;
+    background-color: darkgray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #A7CDE3;
+    font-family: Georgia, Times, serif;
+    margin-bottom: 5px;
+}
+
+.middle-row-par {
+    color: #F5B96E;
+}
+
+#bottom-row {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#footer {
+    max-height: 55px;
+    display: flex;
+}
+
+#facebook img,
+#youtube img,
+#instagram img {
+    padding: 5px;
+}
